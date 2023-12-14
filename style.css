@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2? family= Barlow+Condensed:wght@300 & family= Rubik+Mono+One & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{    
+    font-size: 62,5%;
+    width: 100vh;
+    height: 100vh;
+    background-color: #dc7119;
+  
+   
+}
+p{
+    font-family:  'Barlow Condensed', sem serifa;
+}
+
+/*formulario*/
+.form-principal {    
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 25px;
+    background-color: #dc711969;
+    animation: slidein 2s ;
+    
+}
+.form-principal input{
+    height: 40px;
+    width: 58vh;    
+    float: left;
+    color: rgb(3, 46, 32);
+    background-color:transparent;  
+    border: none;
+    margin: 8px;
+    font-family:  'Barlow Condensed', sem serifa;
+
+}
+.form-principal input:hover{
+    background-color: #dc711969;
+    
+}
+.form-principal label{
+    text-align: justify;
+    font-family:  'Barlow Condensed', sem serifa;
+    color: #aa46f6;
+    font-weight: 600;
+}
+.col{
+    padding-top: 25px;
+    display: inline-flex;    
+}
+.col img{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    height: 100%;
+    padding-top: 15%;
+}
+button{
+    
+    height: 50px;
+    width: 60vh;    
+    float: left;
+    color:  #aa46f6;
+    background-color: antiquewhite;
+    border: none;
+    margin: 8px;
+}
+button:hover{
+    height: 50px;
+    width: 60vh;    
+    float: left;
+    color: antiquewhite;
+    background-color: #6718a38a;
+  
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.back{
+    background-image: url('fundo-cadastro.png');
+    height: 100vh;
+    
+}
+.back h1{
+    display:inline-block;
+    padding: 250px;
+    
+}
+  /*footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+   
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: #cacdd2; 
+    font-family:  'Barlow Condensed', sem serifa;
+    letter-spacing: 2px;
+    
+}
+footer a:hover{
+    text-decoration: none;
+    color: #b87ce6; 
+    font-size:1rem;
+    font-family:  'Barlow Condensed', sem serifa;
+    letter-spacing: 2px;
+    
+}
+.footer-content{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content p{
+   
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+
+#msgError{
+    text-align: center;
+    color: red;
+    background-color: rgba(243, 15, 15, 0.248);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+} 
+#msgSuces{
+    text-align: center;
+    color: green;
+    background-color:rgb(106, 182, 106);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+} 
+#minhadiv{
+    background-color: #b87ce6;
+}
+.cadastro{
+    padding-left:30%;
+     padding-top:10%;
+     padding-right: 10%;
+}
+.cadastro img{
+    
+
+    width: 50%;
+    height: 50%;
+     
+    
+    }
+.cadastro h1{
+    font-family:'Rubik Mono One', monoespaçado;
+    background-color: #dc711948;
+   
+}
